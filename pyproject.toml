@@ -1,0 +1,17 @@
+[project]
+name = "218-model"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "aayush-kumar-meng", email = "aayushkumar@uchicago.edu" }
+]
+requires-python = ">=3.12"
+dependencies = []
+
+[project.scripts]
+218-model = "218_model:main"
+
+[build-system]
+requires = ["uv_build>=0.12.7,<0.13.0"]
+build-backend = "uv_build"
